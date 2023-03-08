@@ -22,7 +22,9 @@ h5,
 h6 {
   font-family: "Raleway", sans-serif;
 }
-
+.d-flex-1{
+  display: flex;
+}
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -141,13 +143,20 @@ h6 {
   transition: 0.5s;
 }
 
+.detail{
+  font-size: 17px;
+}
 @media (max-width: 991px) {
   .mobile-nav-toggle {
     display: block;
   }
 
-  .navbar ul {
+  .navbar ul{
     display: none;
+  }
+  .d-flex-1 {
+    display: block;
+
   }
 }
 
@@ -548,6 +557,11 @@ section {
     max-width: 340px;
   
   }
+  
+.img-profolio{
+  height: 350px; width: 420px;padding-left: 12px;
+}
+
 
 }
 @media (max-width: 1173px){
@@ -821,7 +835,10 @@ section {
   margin: 0 0 40px 0;
 }
 
-#footer .social-links {
+/* #footer .social-links {
   margin: 0 0 40px 0;
-}
+} */
 
+.img-profolio{
+  height: 390px; width: 420px;margin: 0; padding: 0px;
+}
