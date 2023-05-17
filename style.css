@@ -1,0 +1,244 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Raleway", sans-serif;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+.social-link, a{
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+    height: 50px;
+}
+.sidebar{
+    background:#eff1f3;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 225px;
+    height: 100%;
+    /* display: none; */
+    padding: 20px 0;
+    transition: all 0.5s ease;
+}
+
+.wrapper .sidebar .profile{
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.wrapper .sidebar .profile img{
+    display: block;
+    width: 100px;
+    height: 95px;
+    border-radius: 50%;
+    margin: 0 auto;
+}
+
+.wrapper .sidebar .profile h4{
+    color: #ffffff;
+    margin: 10px 0 5px;
+    width: 100%;
+}
+
+.wrapper .sidebar .profile p{
+    color: rgb(8, 8, 17);
+    font-size: 14px;
+
+}
+
+.wrapper .section{
+    width: calc(100% - 225px);
+    margin-left: 225px;
+    transition: all 0.5s ease;
+}
+
+.wrapper .section .top_navbar{
+    position: fixed;
+    background: #a7a2a9;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    padding: 0 30px;
+    width: 100%;
+    top: 0px;
+
+}
+
+.wrapper .section .top_navbar .hamburger a{
+    font-size: 28px;
+    color: #f4fbff;
+}
+
+.wrapper .section .top_navbar .hamburger a:hover{
+    color:  black;
+}
+
+body.active .wrapper .sidebar{
+    left: -225px;
+}
+
+body.active .wrapper .section{
+    margin-left: 0;
+    width: 100%;
+}
+
+/* home-page */
+
+.home-page{
+    height: 100vh;
+    display: flex;
+    margin: 0px;
+   padding-top: 180px;
+   justify-content: center;
+   background:  #a7a2a9;
+}
+.home-page h2{
+    font-size: 64px;
+    font-weight: 700;
+     
+    /* margin-left: 280px; */
+    color: white;
+    font-family: "Raleway", sans-serif;
+}
+.home-page p{
+    
+    margin-left: 3px;
+    font-size: 26px;
+    font-family: "Poppins", sans-serif;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 900px){
+    .home-page h2{
+        font-size: 34px;
+        font-weight: 700;
+         
+        /* margin-left: 280px; */
+        color: white;
+        font-family: "Raleway", sans-serif;
+    }
+    .d-flex-one{
+        display: block;
+    }
+}
+
+
+/* about page */
+.download-btn {
+    background-color: #738290;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: flex;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    margin-left: 10px;
+    align-items: end;
+    
+   
+}
+.btn{
+    display: flex;
+    align-items: end;
+    height: 100%;
+}
+
+.d-flex-one{
+    display: flex;
+}
+
+/*  */
+.resume .resume-title {
+    font-size: 26px;
+    font-weight: 700;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: #050d18;
+  }
+
+.resume .resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #1f5297;
+  
+  }
+  
+  .resume .resume-item h4 {
+    line-height: 18px;
+    font-size: 18px;
+    font-weight: 600;
+    text-transform: uppercase;
+    font-family: "Poppins", sans-serif;
+    color: #050d18;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item h5 {
+    font-size: 16px;
+    background: #e4edf9;
+    padding: 5px 15px;
+    display: inline-block;
+    font-weight: 600;
+    margin-bottom: 10px;
+  }
+  
+  .resume .resume-item ul {
+    padding-left: 20px;
+  }
+  
+  .resume .resume-item ul li {
+    padding-bottom: 10px;
+  }
+  
+  .resume .resume-item:last-child {
+    padding-bottom: 0;
+  }
+
+  .download-btn-cv {
+    background-color: #738290;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    
+
+}
+.text-center-btn {
+    background-color: #738290;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 30px;
+    
+
+}
+  
+  
+
+.form-control {
+    margin-bottom: 15px;
+    border: none;
+    border-bottom: 1px solid black;
+    border-radius: 0px;
+
+}
