@@ -39,6 +39,10 @@ h6 {
     margin: 0 auto;
 }
 
+.url{
+    background-image: url("https://i.postimg.cc/cJMT6Vm3/about-img-2.png");
+}
+
 .wrapper .sidebar .profile h4{
     color: #ffffff;
     margin: 10px 0 5px;
